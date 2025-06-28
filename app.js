@@ -93,7 +93,7 @@ const updateTasksList = () => {
                 </div>
             </div>
         `;
-        listItem.addEventListener('change', () => toggleTaskComplete(index))
+        listItem.addEventListener('change', () => toggleTaskComplete(index));
         taskList.appendChild(listItem);
     });
 };
